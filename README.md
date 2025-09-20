@@ -3,7 +3,7 @@ Foodbie: Online Food Order System
 Foodbie is a console-based online food ordering system built using Python's Object-Oriented Programming (OOP) principles. It allows users to browse restaurants, view menus, search for food items, add them to a cart, and proceed with a simulated payment process.
 
 Features
-User Authentication:
+User Authentication:\n
   Login: Existing users can log in with their email and password.
   Register: New users can create an account with name, email, password, and phone number validation.
   Guest Mode: Users can explore the system without logging in.
