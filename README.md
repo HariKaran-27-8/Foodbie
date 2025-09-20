@@ -3,24 +3,42 @@ Foodbie: Online Food Order System
 Foodbie is a console-based online food ordering system built using Python's Object-Oriented Programming (OOP) principles. It allows users to browse restaurants, view menus, search for food items, add them to a cart, and proceed with a simulated payment process.
 
 Features
-User Authentication:\n
+User Authentication:
+
   Login: Existing users can log in with their email and password.
+  
   Register: New users can create an account with name, email, password, and phone number validation.
+  
   Guest Mode: Users can explore the system without logging in.
+  
 Restaurant and Menu Management:
+
   View Restaurants: Browse a list of available restaurants.
+  
   View Menus: See the food menus offered by each restaurant.
+  
 Food Item Management:
+
   Search Food Items: Find specific food items across all restaurants.
+  
   Display Food Items: View details of food items including dish name, rating, price, and description.
+  
 Shopping Cart Functionality:
+
   Add to Cart: Select multiple food items to add to your cart.
+  
   View Cart: Review items currently in your cart.
+  
   Remove from Cart: Remove unwanted items from the cart.
+  
 Order Processing and Payment:
+
   Process Order: Calculate the total amount for items in the cart.
+  
   Payment Gateway Simulation: Choose from various payment methods (Credit Card, Debit Card, UPI, Net Banking, Cash on Delivery) with basic validation.
+  
   Order Saving: Successful orders are saved to a orders.json file.
+  
 Modular Design: The system is structured using OOP, with clear separation of concerns into classes like User, UserManager, AbstractItem, Fooditem, Foodmenu, Restaurant, Foodmanager, Cart, Mainmenu, and OrderSystem.
 
 Getting Started
@@ -60,6 +78,7 @@ Upon running the application, you will be presented with a welcome message and l
 
 Run
 Copy code
+
 Welcome to the Foodbie's ocean of tastes!
 Please select an option:
 1. Login | 2. Register | 3. Guest | 4. Exit |
@@ -98,7 +117,7 @@ Upon successful payment, the order details will be saved to orders.json.
 Project Structure
 
 Run
-Copy code
+Copy code[
 MultipleFiles/
 ├── Abstractitem.py         # Abstract base class for items (Fooditem, Foodmenu, Restaurant)
 ├── cart.py                 # Handles shopping cart logic, adding/removing items, and payment processing
@@ -113,18 +132,26 @@ MultipleFiles/
 ├── Restaurant.py           # Represents a restaurant with its details and menus
 ├── user.py                 # Defines the User class
 └── usermanager.py          # Manages user accounts (add, find, get all users)
+]
 
 Future Enhancements
+
 Persistent Data: Implement database integration (e.g., SQLite) for storing user, restaurant, and order data more robustly.
+
 Order History: Allow users to view their past orders.
+
 Admin Panel: Create an admin interface for managing restaurants, menus, and users.
+
 Rating System: Allow users to rate food items and restaurants.
+
 More Robust Input Validation: Enhance validation for all user inputs.
+
 Error Handling: Implement more comprehensive error handling.
+
 User Interface: Consider a GUI framework (e.g., Tkinter, PyQt) for a more user-friendly experience.
 
 Contributing
-Feel free to fork the repository, make improvements, and submit pull requests.
+    Feel free to fork the repository, make improvements, and submit pull requests.
 
 License
-This project is open-source and available under the MIT License.
+    This project is open-source and available under the MIT License.
